@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Máy Tính Đơn Giản</title>
+	<link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+	<div class="maytinh">
+		<input type="text" id = 'screen'><br>
+		<button 
+			class="item itemPhantram" 
+			value="%"
+			>%
+		</button>
+		<button 
+			class="item itemAC" 
+			value="AC"
+			onclick="Delete()" 
+			>AC
+		</button>
+		<br>
+		<button 
+			class="item item7" 
+			value="7"
+			onclick="displayValue(this.value)" 
+			>7
+		</button>
+		<button 
+			class="item item8" 
+			value="8"
+			onclick="displayValue(this.value)" 
+			>8
+		</button>
+		<button 
+			class="item item9" 
+			value="9"
+			onclick="displayValue(this.value)" 
+			>9
+		</button>
+		<button 
+			class="item itemChia" 
+			value="/"
+			onclick="displayValue(this.value)" 
+			>/
+		</button>
+		<br>
+		<button 
+			class="item item4" 
+			value="4"
+			onclick="displayValue(this.value)" 
+			>4
+		</button>
+		<button 
+			class="item item5" 
+			value="5"
+			onclick="displayValue(this.value)" 
+			>5
+		</button>
+		<button 
+			class="item item6" 
+			value="6"
+			onclick="displayValue(this.value)" 
+			>6
+		</button>
+		<button 
+			class="item itemNhan" 
+			value="*"
+			onclick="displayValue(this.value)" 
+			>*
+		</button>
+		<br>
+		<button 
+			class="item item1" 
+			value="1"
+			onclick="displayValue(this.value)" 
+			>1
+		</button>
+		<button 
+			class="item item2" 
+			value="2"
+			onclick="displayValue(this.value)" 
+			>2
+		</button>
+		<button 
+			class="item item3" 
+			value="3"
+			onclick="displayValue(this.value)" 
+			>3
+		</button>
+		<button 
+			class="item itemTru" 
+			value="-"
+			onclick="displayValue(this.value)" 
+			>-
+		</button>
+		<br>
+		<button 
+			class="item item0" 
+			value="0"
+			onclick="displayValue(this.value)" 
+			>0
+		</button>
+		<button 
+			class="item itemCham" 
+			value="."
+			>.
+		</button>
+		<button 
+			class="item itemBang" 
+			value="="
+			onclick="ketqua()" 
+			>=
+		</button>
+		<button 
+			class="item itemCong" 
+			value="+"
+			onclick="displayValue(value)" 
+			>+
+		</button>
+	</div>
+</body>
+<script src="calculator.js"></script>
+</html>

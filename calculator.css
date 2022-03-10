@@ -1,0 +1,25 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: #E0C6FE;
+}
+.maytinh{
+	margin-left: 600px;
+	margin-top: 200px;
+}
+#screen{
+	height: 35px;
+	width: 172px;
+	background-color: white;
+
+}
+.item{
+	height: 40px;
+	width: 40px;
+}
+.itemPhantram,.itemAC{
+	margin-top: 10px;
+}
+.item7,.item4,.item1,.item0{
+	margin-top: 5px;
+}
